@@ -1,0 +1,28 @@
+.about .h5 {
+    margin: 5% 0 1rem;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    /* margin-left: 500px;*/
+    justify-content: center;
+}
+
+.about .p {
+    max-width: 40rem;
+    margin: 5% 0 2em 25%;
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--blanco)
+}
+
+@media(max-width: 950px) {
+    .about .h5 {
+        font-size: 2em;
+    }
+
+    .about .p {
+        font-size: 1em;
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+}
